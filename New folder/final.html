@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Photo Gallery</title>
+    <link rel="stylesheet" href="final.css" />
+  </head>
+  <body>
+    <main>
+      <section aria-labelledby="gallery-heading">
+        <h1>
+          Peer-graded Assignment: Final Project: Your Own Accessible Photo
+          Gallery
+        </h1>
+
+        <div class="hover-box" id="hover-box" align="right"></div>
+
+        <div class="gallery" role="region" aria-live="polite">
+          <div class="photo" tabindex="1" aria-label="Audi">
+            <img
+              src="pexels-mayday-1545743.jpg"
+              alt="Audi"
+              width="200"
+              height="500"
+            />
+          </div>
+          <div class="photo" tabindex="2" aria-label="Lamborghini">
+            <img
+              src="download.jpg"
+              alt="Lamborghini"
+              width="200"
+              height="500"
+            />
+          </div>
+          <div class="photo" tabindex="3" aria-label="Buggati">
+            <img src="80387978.webp" alt="Buggati" width="200" height="500" />
+          </div>
+          <div class="photo" tabindex="4" aria-label="Fire car">
+            <img src="images.jpg" alt="Fire car" width="200" height="500" />
+          </div>
+          <div class="photo" tabindex="5" aria-label="Rolls Royce">
+            <img src="rolls.jpg" alt="Rolls Royce" width="200" height="500" />
+          </div>
+          <div class="photo" tabindex="6" aria-label="McLarren">
+            <img src="img.jpg" alt="McLarren" width="200" height="500" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="final.js"></script>
+  </body>
+</html>
